@@ -7,4 +7,4 @@ for line in sys.stdin:
     product_counts[product] += int(count)
 
 for product, count in product_counts.items():
-    print(f"{product}\t{count}")  # Output: ProductID → Total Views
+    print(f"{product}\t{count}")
